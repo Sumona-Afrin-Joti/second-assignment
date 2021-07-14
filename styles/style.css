@@ -26,7 +26,7 @@ header{
 .right-side a,i{
     display: block;
 }
-a{
+  a{
     text-decoration: none;
     color: white;
     padding:0px 10px;
@@ -243,8 +243,7 @@ header:hover .ball{
         margin-right: 0px;
     }
     .animation{
-        /* display: block; */
-        flex-direction: column;
+         flex-direction: column;
         justify-content: center;
     }
     
@@ -255,7 +254,6 @@ header:hover .ball{
     } 
     .cards{
         grid-template-columns: repeat(1,1fr);
-        position: relative;
     }
 
     .highlight{
@@ -268,7 +266,7 @@ header:hover .ball{
         width:329px;
         height: 299px;
         position: absolute;
-        Left:15px;
+        Left:10px;
         top: 6870px;    
     }
     .description-image img{
@@ -281,44 +279,44 @@ header:hover .ball{
     }
     #title{
         position: absolute;
-        top: 7480px;
-        left:15px;   
+        top: 7530px;
+        left:120px;   
     }
     .teams{
-        width: 250px;
-         margin-left: 14px;
+        width: 328px;
          position: absolute;
         top: 7630px;
+        left:14px;
         overflow: scroll;
-       
-    }
+       }
     .footer{
         position: absolute;
         top: 7850px;
-        left: 15px;
-        width:300px;
-        height: 70px;
+        left: 12px;
+        width:328px;
+        height: 250px;
         margin-left: 0%;
+       
     }
     .footer img{
-        width:200px;
+        width:300px;
         height: 63px;
         
     }
     .icons{
-       
         height: 32px;
         text-align: center;
-         margin-left: 2%;
+         margin-left: 20%;
     }
     small{
-       margin-left: 0%;
+       margin-left: 22%;
        display: inline-block;
 
     }
     
 
   }
+
   
   
 
