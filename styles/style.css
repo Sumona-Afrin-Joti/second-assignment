@@ -20,6 +20,9 @@ header{
     display: flex;
     justify-content: space-between;   
 }
+.dropdown-container{
+    display: none;
+}
 .right-side a,i{
     display: block;
 }
@@ -183,7 +186,7 @@ header:hover .ball{
       height: 215px;
       margin-top: 5%;
       margin-left: 33%;
-      margin-bottom: 150px;
+      margin-bottom: 30px;
   }
   .footer img{
       width:485px;
@@ -209,5 +212,115 @@ header:hover .ball{
       margin-top: 25px;
       margin-left: 8%;
   }
+
+  /* For Mobile */
+  @media only screen and (max-width:668px){
+    .menu-bar{
+        display: inline-block;     
+    }
+
+    .dropdown-container{
+        display: block;
+        position: absolute;
+        top: 10px;
+        left: 10px;    
+    }
+    .dropdown-content{
+        display: none;
+    }
+    #bars{
+        font-size: 40px;
+    }
+    .dropdown-container:focus .dropdown-content{
+        display: block;
+    }
+    
+    header{
+       
+       height: 600px;
+        
+    }
+    
+    .right-side{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        margin-right: 0px;
+    }
+    .animation{
+        /* display: block; */
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .playing{
+        position: absolute;
+        left:40px;
+        top: 320px;
+    } 
+    .cards{
+        grid-template-columns: repeat(1,1fr);
+        position: relative;
+    }
+    .highlight{
+        flex-direction: column;
+        
+        
+    }
+    
+    .description{
+        width:329px;
+        height: 299px;
+        position: absolute;
+        Left:15px;
+        top: 6870px;    
+    }
+    .description-image img{
+        position: absolute;
+        width: 328px;
+        height: 248px;
+        left: 14px;
+        top: 7200px;
+       
+    }
+    #title{
+        position: absolute;
+        top: 7480px;
+        left:15px;   
+    }
+    .teams{
+        width: 328px;
+         margin-left: 14px;
+         position: absolute;
+        top: 7580px;
+        overflow: scroll;
+       
+    }
+    .footer{
+        position: absolute;
+        top: 7800px;
+        left: 15px;
+        width:300px;
+        height: 70px;
+        margin-left: 0%;
+    }
+    .footer img{
+        width:200px;
+        height: 63px;
+        
+    }
+    .icons{
+       
+        height: 32px;
+        text-align: center;
+         margin-left: 2%;
+    }
+    small{
+       margin-left: 0%;
+    }
+    
+
+  }
+  
   
 
