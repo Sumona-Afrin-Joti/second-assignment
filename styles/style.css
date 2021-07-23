@@ -8,6 +8,7 @@
 }
 body{
     font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
 }
 /* header start */
 header{
@@ -130,6 +131,7 @@ header:hover .ball{
   }
 
   /* 2nd section */
+  
   .highlight{
       display: flex;
       align-items: center;
@@ -166,7 +168,7 @@ header:hover .ball{
       text-align: center;
   }
   .teams{
-      width:70%;
+      width:50%;
       margin: 0 auto;
       display: flex;
       gap:1%;
