@@ -168,7 +168,7 @@ header:hover .ball{
       text-align: center;
   }
   .teams{
-      width:50%;
+      width:80%;
       margin: 0 auto;
       display: flex;
       gap:1%;
@@ -220,6 +220,12 @@ header:hover .ball{
     .menu-bar{
         display: inline-block;     
     }
+    
+    .flag{
+        width:100px;
+       border-radius: 50%;
+        
+     }
 
     .dropdown-container{
         display: block;
@@ -248,11 +254,13 @@ header:hover .ball{
          flex-direction: column;
         justify-content: center;
     }
-    
+    .intro{
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
     .playing{
-        position: absolute;
-        left:40px;
-        top: 320px;
+        width: 100%;
     } 
     .cards{
         grid-template-columns: repeat(1,1fr);
